@@ -67,6 +67,14 @@ const MenuItem = styled.div`
   cursor: pointer;
   ${mobile({ fontSize: "12px", marginLeft : "10px"})} 
 `;
+const StyledLink = styled(Link)`
+  font-size: 14px;
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  ${mobile({ fontSize: "12px", marginLeft : "10px"})} 
+`;
 
 const Navbar = () => {
   return (
@@ -81,12 +89,14 @@ const Navbar = () => {
       </Left>
       <Center><Logo>Trendy</Logo></Center>
       <Right>
-        <MenuItem><Link to='../pages/Register'>REGISTER</Link></MenuItem>
-        <MenuItem><Link to='../pages/login'>SIGN IN</Link></MenuItem>
+        <MenuItem><StyledLink to='../pages/Register'>REGISTER</StyledLink></MenuItem>
+        <MenuItem><StyledLink to='../pages/login'>SIGN IN</StyledLink></MenuItem>
         <MenuItem>
-          <Badge badgeContent={4} color="primary">  {/*4 indicates the number of element added in shopping cart*/}
-            <ShoppingCartOutlined />
-        </Badge>
+          <StyledLink to='/cart'>
+            <Badge badgeContent={4} color="primary">  {/*4 indicates the number of element added in shopping cart*/}
+              <ShoppingCartOutlined />
+          </Badge>
+          </StyledLink>
         </MenuItem>
       </Right>
       </Wrapper>

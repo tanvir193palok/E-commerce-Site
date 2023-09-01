@@ -10,10 +10,10 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/tanvir193palok.github.io/E-commerce-Site/" element={<Home />} />
+        <Route path="/E-commerce-Site" element={<Home />} />
         <Route path="/products/:category" element={<ProductList />} />
         <Route path="/product/:id" element={<Product />} />
-        <Route path="pages/cart" element={<Cart />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="pages/login" element={<Login />} />
         <Route path="pages/register" element={<Register />} />
       </Routes>

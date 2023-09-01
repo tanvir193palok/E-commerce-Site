@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { useState } from 'react';
 import { sliderItems } from '../data';
 import {mobile} from '../responsive'
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
     width: 100%;

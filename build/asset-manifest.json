@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/E-commerce-Site/static/js/main.922f7600.js",
+    "main.js": "/E-commerce-Site/static/js/main.ceacc644.js",
     "static/media/product5.jpg": "/E-commerce-Site/static/media/product5.cf31cdca308f47ed772e.jpg",
     "static/media/pexels-anastasiya-gepp-1462637.jpg": "/E-commerce-Site/static/media/pexels-anastasiya-gepp-1462637.f8dcf3caa47766d2167a.jpg",
     "static/media/Product4.jpg": "/E-commerce-Site/static/media/Product4.35734130b15735f5f9f0.jpg",
@@ -8,9 +8,9 @@
     "static/media/retry.jpg": "/E-commerce-Site/static/media/retry.1169a2843582801d14a1.jpg",
     "static/media/pngwing.com.png": "/E-commerce-Site/static/media/pngwing.com.70748cc01c2b019dcbf9.png",
     "index.html": "/E-commerce-Site/index.html",
-    "main.922f7600.js.map": "/E-commerce-Site/static/js/main.922f7600.js.map"
+    "main.ceacc644.js.map": "/E-commerce-Site/static/js/main.ceacc644.js.map"
   },
   "entrypoints": [
-    "static/js/main.922f7600.js"
+    "static/js/main.ceacc644.js"
   ]
 }
